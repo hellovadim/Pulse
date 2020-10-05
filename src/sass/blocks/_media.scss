@@ -74,6 +74,8 @@
             }
         }
     }
+
+
     .promo{
         &__wrapper{
             align-items: center;
@@ -139,8 +141,41 @@
             font-size: 15px;
         }
     }
-    
+    .carousel{
+        &__inner{
+            max-width: 500px;
+            img{
+                width: 100%;
+            } 
+            .slick-dots{
+                width: 150px;
+                margin: 30px auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                list-style-type: none;
+                button{
+                    outline: none;
+                    border: none;
+                    font-size: 0px;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 100%;
+                    background-color: #bebec0;
+                    display: block;
+                    margin: 1px;
+                    transition: scale;
+                }
+                .slick-active{
+                    box-sizing: initial;
+                    border: 3px solid #bebec0;
+                    border-radius: 100%;
+                }
+               
+            }           
+    }
 }
+
 @media (max-width: 576px){
     .promo{
         &__header{
@@ -205,4 +240,14 @@
             font-size: 13px;
         }
     }
+    .carousel{
+        &__inner{
+            max-width: 350px;
+            img{
+                width: 100%;
+            }
+            
+        }
+    }
+}
 }
