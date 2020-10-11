@@ -193,7 +193,6 @@
                     background-color: #bebec0;
                     display: block;
                     margin: 1px;
-                    transition: scale;
                 }
                 .slick-active{
                     box-sizing: initial;
@@ -297,6 +296,11 @@
             text-align: left;
         }
         
+    }
+    .footer{
+        &__info{
+            width: 100%;
+        }
     }
 }
 }
