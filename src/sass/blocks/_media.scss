@@ -302,5 +302,27 @@
             width: 100%;
         }
     }
+    .modal{
+        width: 320px;
+        &__subtitle{
+            font-size: 15px;
+        }
+        &__desc{
+            font-size: 12px;
+        }
+        &__close{
+            top: -29px;
+            right: 2px;
+            font-size: 31px;
+            font-weight: 800;
+        }
+    }
+    .feed-form_mt25{
+        width: 100%;
+        margin-top: 10px;
+        input{
+            font-size: 11px;
+        }
+    }
 }
 }
