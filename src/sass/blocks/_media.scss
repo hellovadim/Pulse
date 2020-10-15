@@ -298,6 +298,9 @@
         
     }
     .footer{
+        &__social-item{
+            height: 45px;
+        }
         &__info{
             width: 100%;
         }
