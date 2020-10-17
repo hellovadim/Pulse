@@ -33,7 +33,7 @@ $(document).ready(function(){
     }
 
     toggleSlide('.catalog-item__link');
-    toggleSlide('.catalog-item__back');
+    toggleSlide('.catalog-item__back-link');
 
     // Modal
 
@@ -105,7 +105,7 @@ $(document).ready(function(){
         $('.pageup').fadeOut ();
       }
     });
-    $("a[href^='#']").click(function(){
+    $("a[href='#up']").click(function(){
       var _href = $(this).attr("href");
       $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
       return false;
