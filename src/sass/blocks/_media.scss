@@ -299,7 +299,10 @@
     }
     .footer{
         &__social-item{
-            height: 45px;
+            height: 36px;
+            img{
+                height: 19px;
+            }
         }
         &__info{
             width: 100%;
